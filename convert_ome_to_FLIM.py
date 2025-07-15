@@ -4,7 +4,6 @@ from matplotlib.colors import LinearSegmentedColormap
 from tkinter import filedialog, simpledialog, Tk
 from tifffile import imread
 
-#fn = 'NoEnclosure_zFocusPy_TwoMagnets_narrow_Climate22deg_20250328-140554_0009. FLIM OnlineFastFLIM.ome.tif'
 # define PQ colormap
 cmap_PQ = []
 cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_0_Red-Green-Blue.txt')[:,1:]/255)
