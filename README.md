@@ -8,4 +8,4 @@ Execute from command line by typing 'python .\convert_ome_to_FLIM.py' and follow
 
 
 # Available colormaps:
-![PQ Colormaps](https://raw.githubusercontent.com/AndersBarth/PQ_OME-TIF_conversion/master/ColorSchemes_HIS/PQ_colormaps.png)
+![PQ Colormaps](https://raw.githubusercontent.com/AndersBarth/PQ_OME-TIF_conversion/master/ColorSchemes/PQ_colormaps.png)
