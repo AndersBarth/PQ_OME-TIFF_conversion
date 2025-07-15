@@ -7,10 +7,10 @@ from tifffile import imread
 #fn = 'NoEnclosure_zFocusPy_TwoMagnets_narrow_Climate22deg_20250328-140554_0009. FLIM OnlineFastFLIM.ome.tif'
 # define PQ colormap
 cmap_PQ = []
-cmap_PQ.append(np.genfromtxt('ColorSchemes_HIS/ColorScheme_0_Red-Green-Blue.txt')[:,1:]/255)
-cmap_PQ.append(np.genfromtxt('ColorSchemes_HIS/ColorScheme_1_Blue-Green-Yellow.txt')[:,1:]/255)
-cmap_PQ.append(np.genfromtxt('ColorSchemes_HIS/ColorScheme_2_Cyan-Green-Magenta.txt')[:,1:]/255)
-cmap_PQ.append(np.genfromtxt('ColorSchemes_HIS/ColorScheme_3_Cyan-Magenta-Yellow.txt')[:,1:]/255)
+cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_0_Red-Green-Blue.txt')[:,1:]/255)
+cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_1_Blue-Green-Yellow.txt')[:,1:]/255)
+cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_2_Cyan-Green-Magenta.txt')[:,1:]/255)
+cmap_PQ.append(np.genfromtxt('ColorSchemes/ColorScheme_3_Cyan-Magenta-Yellow.txt')[:,1:]/255)
 
 root = Tk()
 root.withdraw()
